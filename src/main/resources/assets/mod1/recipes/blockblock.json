@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "mod1:blockblock"
+  },
+  "pattern": [
+    "d",
+    "d",
+    "d"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "d": {
+      "item": "minecraft:sand",
+      "data": 0
+    }
+  }
+}

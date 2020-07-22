@@ -1,0 +1,27 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "particle": "mod1:blocks/blockblocktop",
+      "south": "mod1:blocks/blockblockback",
+      "north": "mod1:blocks/blockblockfront",
+      "west": "mod1:blocks/blockblockleft",
+      "east": "mod1:blocks/blockblockright",
+      "up": "mod1:blocks/blockblocktop",
+      "down": "mod1:blocks/blockblockbottom"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": {},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90},
+      "up": {"x": -90},
+      "down": {"x": 90}
+    }
+  }
+}
